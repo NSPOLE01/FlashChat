@@ -18,7 +18,7 @@ class ChatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "⚡️FlashChat"
+        title = Constants.appName
         navigationItem.hidesBackButton = true
     }
     
