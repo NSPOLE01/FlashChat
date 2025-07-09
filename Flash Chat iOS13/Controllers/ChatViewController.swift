@@ -44,6 +44,10 @@ class ChatViewController: UIViewController {
                         if let sender = data[Constants.FStore.senderField] as? String, let messageBody = data[Constants.FStore.bodyField] as? String {
                             let newMessage = Message(sender: sender, body: messageBody)
                             self.messages.append(newMessage)
+                            
+                            DispatchQueue.main.async {
+                                self.tableView.reloadData()
+                            }
                         }
                     }
                 }
