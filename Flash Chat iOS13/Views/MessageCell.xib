@@ -66,8 +66,9 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="label" destination="DB1-oJ-eDY" id="tco-fc-ABO"/>
-                <outlet property="leftImageView" destination="nwg-3U-fbc" id="Jfk-9R-qv8"/>
+                <outlet property="leftImageView" destination="nwg-3U-fbc" id="EOh-5W-bvc"/>
                 <outlet property="messageBubble" destination="ayv-Bp-hqA" id="uSE-7o-225"/>
+                <outlet property="rightImageView" destination="yxL-rq-aV4" id="yIk-DS-e3i"/>
             </connections>
             <point key="canvasLocation" x="133.58778625954199" y="-82.042253521126767"/>
         </tableViewCell>
